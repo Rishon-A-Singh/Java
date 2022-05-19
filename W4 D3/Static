@@ -1,0 +1,7 @@
+The static variables are loaded into the RAM of the computer
+when the program is first turned on, the non static variables stay on the 
+hard disk as bytecode. only when it is called can the non static
+variables be loaded. For example, if there is a static int = 10, this is loaded 
+onto the memory in the start, but if there is a double = 15.22, and it is outside
+the static methods and variables in the class it can only be loaded if you create
+a new object for example.
