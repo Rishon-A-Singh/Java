@@ -23,6 +23,8 @@ public class Student {
 		s2.marks=100;
 		s2.displayStudentDetails();
 		s1.displayStudentDetails();
+		s1=null;
+		s2=null;
 		
 	}
 
