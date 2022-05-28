@@ -1,0 +1,8 @@
+Q3:
+
+Suppose we have a class Person, which is a child class of Office and Home.
+Suppose the methods inside the Person class make the person do actions.
+In these 2 secenarios the person acts differently in the differnt envirionment.
+So in the same way the methods for the person should do differnet things under differnt class.
+To achieve this, the method in Home can be overriden to make the person do differnt actions.
+method overriding is the way we can do dynamic polymorphism.
