@@ -12,7 +12,7 @@ public class UserRegistration {
 		String userCountry = scan.next();
 		try {
 			//this if statement does not work to check if the country == India 
-			if (userCountry == "India") {
+				if (userCountry.equals("India")){
 				System.out.println("User registration successfully");
 				//
 			}
